@@ -1,6 +1,6 @@
 <!--
- U.S. Decennial Census
- 1950 Census
+ 1950 U.S. Decennial Census
+ https://1950census.archives.gov/
 -->
     <form id='US1950' type='Census' title='1950 US Census' date='1950-04-01'>
         <heading>
