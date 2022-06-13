@@ -1,0 +1,794 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<forms>
+<!--
+ U.S. Census, 1850 Mortality Schedule 3
+-->
+    <form id='US1850-M' type='Census' title='1850 Mortality Schedule' date='1850-06-01'>
+        <heading>
+            <_attribute>NARA publication</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Roll No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Page No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Sheet No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Minor Civil Division</_attribute>
+        </heading>
+        <heading>
+            <_attribute>County of</_attribute>
+        </heading>
+        <heading>
+            <_attribute>State of</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Enumeration Date</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Post Office</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Line No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Family No.</_attribute>
+        </heading>
+        <section role='Primary' type='multi'>
+            <column>
+                <_attribute> Name</_attribute>
+                <_longname>(1) Name of every person who died during the
+     year ending 1st June 1850, whose usual
+     Place of Abode at the Time of his Death
+     was in his Family.</_longname>
+            </column>
+            <column>
+                <_attribute> Age</_attribute>
+                <_longname>(2) Age</_longname>
+            </column>
+            <column>
+                <_attribute> Sex</_attribute>
+                <_longname>(3) Sex</_longname>
+            </column>
+            <column>
+                <_attribute> Color</_attribute>
+                <_longname>(4) Color. White, Black or Mulatto</_longname>
+            </column>
+            <column>
+                <_attribute> Free/Slave</_attribute>
+                <_longname>(5) Free or Slave</_longname>
+            </column>
+            <column>
+                <_attribute> Married/Widowed</_attribute>
+                <_longname>(6) Married or Widowed</_longname>
+            </column>
+            <column>
+                <_attribute> Birth Place</_attribute>
+                <_longname>(7) Place of Birth. Naming the State,
+     Territory, or Country.</_longname>
+            </column>
+            <column>
+                <_attribute> Month died</_attribute>
+                <_longname>(8) The Month in which the Person died</_longname>
+            </column>
+            <column>
+                <_attribute> Occupation</_attribute>
+                <_longname>(9) Profession, Occupation, or Trade.</_longname>
+            </column>
+            <column>
+                <_attribute> Cause of Death</_attribute>
+                <_longname>(10) Disease, or Cause of Death.</_longname>
+            </column>
+            <column>
+                <_attribute> Days Ill.</_attribute>
+                <_longname>(11) Number of Days Ill.</_longname>
+            </column>
+        </section>
+    </form>
+<!--
+ 1960 Census
+ See 1960 census form at (https://www.census.gov/history/www/through_the_decades/questionnaires/1960_1.html)
+-->
+    <form id='US1960' type='Census' title='1960 US Census' date='1960-04-01'>
+        <heading>
+            <_attribute>No questions asked</_attribute>
+        </heading>
+        <section role='Primary' type='multi'>
+            <column>
+                <_attribute>Name</_attribute>
+                <_longname>(P2) Name of person living here on April 1 1960  (First, Middle initial, Last.)</_longname>
+            </column>
+            <column>
+                <_attribute> Relationship</_attribute>
+                <_longname>(P3) Relationship of person to head of household,</_longname>
+            </column>
+            <column>
+                <_attribute> Sex</_attribute>
+                <_longname>(P4) Male (M) or Female (F)</_longname>
+            </column>
+            <column>
+                <_attribute> Race</_attribute>
+                <_longname>(P5)</_longname>
+            </column>
+            <column>
+                <_attribute> When born</_attribute>
+                <_longname>(P6) Month and Year of birth</_longname>
+            </column>
+            <column>
+                <_attribute> Marital Status</_attribute>
+                <_longname>(P7) Married, Widowed, Divorced, Separated, Single (never married), Blank for children born after March 31, 1946</_longname>
+            </column>
+            <column>
+                <_attribute> Place of birth</_attribute>
+                <_longname>(P8) State, foreign country, U.S. Possession, etc</_longname>
+            </column>
+            <column>
+                <_attribute> If foreign born, person's mother tongue</_attribute>
+                <_longname>(P9) If foreign born, what is the person's mother tongue</_longname>
+            </column>
+            <column>
+                <_attribute> Birth country of father</_attribute>
+                <_longname>(P10) What country was the father born in</_longname>
+            </column>
+            <column>
+                <_attribute> Birth country of mother</_attribute>
+                <_longname>(P11) What country was the mother born in</_longname>
+            </column>
+            <column>
+                <_attribute> When did this person move into this house</_attribute>
+                <_longname>(P12) (1959 or 1960), (1958), (1957), (Apr 1955 to Dec 1956), (Jan 1954 to Mar 1955), (1950 to 1953), (1940 to 1949(, (1939 or earlier), Always lived here)</_longname>
+            </column>
+            <column>
+                <_attribute> Lived in this house on April 1, 1955</_attribute>
+                <_longname>(P13) (No born after Apr 1955), (Yes), (No, lived in City or town, State, foreign country, U.S. possession, or etc)</_longname>
+            </column>
+            <column>
+                <_attribute> Highest grade attended in school</_attribute>
+                <_longname>(P14) (Never attended School), (Kindergarten), (Elementary G1 - G8), (High School H1 - H4), (College Year 1 - 6)</_longname>
+            </column>
+            <column>
+                <_attribute> Finish that highest grade</_attribute>
+                <_longname>(P15) Did the person finish the highest grade or year they attended</_longname>
+            </column>
+            <column>
+                <_attribute> Attended regular school or college at any time since February 1, 1960</_attribute>
+                <_longname>(P16) If attended only nursery school, business or trade school, or adult education classes, answer "No"</_longname>
+            </column>
+            <column>
+                <_attribute> Was the school or college attended public or private</_attribute>
+                <_longname>(P17) (Public school), or (Private or parochial school)</_longname>
+            </column>
+            <column>
+                <_attribute> Married more than once. Date of first marriage.</_attribute>
+                <_longname>(P18-P19) (No, Date of marriage), or (Yes, Date of first marriage)</_longname>
+            </column>
+            <column>
+                <_attribute> Number of children born, not counting stillbirts</_attribute>
+                <_longname>(P20) How many babies has she ever had, not counting stillbirths, stepchildren, or adopted children?</_longname>
+            </column>
+            <column>
+                <_attribute> Was this person born before April 1946 or after March 1946</_attribute>
+                <_longname>(P21) (Before April 1946) Answer all questions, (After March 1946) stop here</_longname>
+            </column>
+            <column>
+                <_attribute> Did this person work at any time last week?</_attribute>
+                <_longname>(P22) (Yes), or (No)</_longname>
+            </column>
+            <column>
+                <_attribute> How many hours were worked last week</_attribute>
+                <_longname>(P23) (1 to 14), (15 to 29), (30 to 34), (35 to 39), (40), (41 to 48), (49 to 59), (60 or more)) </_longname>
+            </column>
+            <column>
+                <_attribute> Was this person looking for work, or on a layoff from a job?</_attribute>
+                <_longname>(P24) (Yes), or (No)</_longname>
+            </column>
+            <column>
+                <_attribute> Was this person temporarily absent last week from their job?</_attribute>
+                <_longname>(P25) Does this person have a job or business from which he was temporarily absent last week because of illness, vacation, or other reasons?</_longname>
+            </column>
+            <column>
+                <_attribute> This person last work.</_attribute>
+                <_longname>(P26) When did the person last work, even for a few days? (Working now), (in 1960), (in 1959), (1955 to 1958), (1950 to 1954), (1949 or earlier), (Never worked)</_longname>
+            </column>
+            <column>
+                <_attribute> This person last worked</_attribute>
+                <_longname>(P27-1) (in 1949 or earlier) or (has never worked)</_longname>
+            </column>
+            <column>
+                <_attribute> This person is on active duty in the armed forces now</_attribute>
+                <_longname>(27-2) (Yes) or (No)</_longname>
+            </column>
+            <column>
+                <_attribute> This person worked in 1950 or later</_attribute>
+                <_longname>(P27-3) Last year how many weeks did this person do any work at all, not counting work around the house</_longname>
+            </column>
+            <column>
+                <_attribute> For whom did he work?</_attribute>
+                <_longname>(P27-3a)</_longname>
+            </column>
+            <column>
+                <_attribute> Type of business or industry was it?</_attribute>
+                <_longname>(P27-3b)</_longname>
+            </column>
+            <column>
+                <_attribute> Was the industry primarily...</_attribute>
+                <_longname>(P27-3c) (Manufacturing), (Wholesale trade), (Retail trade), (Other)</_longname>
+            </column>
+            <column>
+                <_attribute> Type of work</_attribute>
+                <_longname>(P27-3d) What kind of work was this person doing?</_longname>
+            </column>
+            <column>
+                <_attribute> This person was</_attribute>
+                <_longname>(P27-3e) Was this person (Privately employed), (a government employee), (Self-employed), (Working without pay)</_longname>
+            </column>
+            <column>
+                <_attribute> City and county worked in last week</_attribute>
+                <_longname>(P28a) What city and county did this person in last week</_longname>
+            </column>
+            <column>
+                <_attribute> Did this person work inside the city limits?</_attribute>
+                <_longname>(P28b)</_longname>
+            </column>
+            <column>
+                <_attribute> Mode of transportation to work</_attribute>
+                <_longname>(P29) How did this person get to work last week? (Railroad), (Subway or elevated train), (Bus or streetcar), (Taxicab), (Private auto or carpool), (Walk only), (Worked at home), (Other)</_longname>
+            </column>
+            <column>
+                <_attribute> Did this person work any in 1959</_attribute>
+                <_longname>(P30) Last year (1959), did this person work at all, even for a few days?</_longname>
+            </column>
+            <column>
+                <_attribute> Week worked in 1959</_attribute>
+                <_longname>(P31) How many weeks did this person work in 1959, either full time or part time?</_longname>
+            </column>
+            <column>
+                <_attribute> Total income in 1959 from wages, salary, commissions, or tips</_attribute>
+                <_longname>(P32) How much did this person earn in 1959 in wages, salary, commissions, or tips from all jobs?</_longname>
+            </column>
+            <column>
+                <_attribute> Total income in 1959 from own business, professional practice, partnership, or farm</_attribute>
+                <_longname>(P33) How much did this person earn in 1959 in profits or fees from working in his own business, professional practice, partnership, or farm?</_longname>
+            </column>
+            <column>
+                <_attribute> 1959 income from other sources</_attribute>
+                <_longname>(P34) Last year, how much income did this person receive from Social Security, pensions, veteran's payments, rent (minus expenses), interest or dividends, unemployment insurance, welfare payments, etc?</_longname>
+            </column>
+            <column>
+                <_attribute> Ever served in the Armed forces?</_attribute>
+                <_longname>(P35a) Has this person ever served in the Army, Navy, or other Armed forces?</_longname>
+            </column>
+            <column>
+                <_attribute> When did this person serve in the Armed forces?</_attribute>
+                <_longname>(P35b) during the (Korean War), (World War II), (World War I), or at (another time)</_longname>
+            </column>
+        </section>
+    </form>
+<!--
+ 1970 Census
+ Only 5 questions were asked of all individuals: relationship to household head, sex, race, age, and marital status.
+ Other questions were asked of a 15 percent sample and still others of a 5 percent sample.
+ This is the 5 percent questionnaire.
+ See 1970 census form at (https://www.census.gov/history/www/through_the_decades/questionnaires/1970_1.html)
+-->
+    <form id='US1970' type='Census' title='1970 US Census' date='1970-04-01'>
+        <heading>
+            <_attribute>Name of person who filled this form</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Date form was filled</_attribute>
+        </heading>
+        <section role='Primary' type='multi'>
+            <column>
+                <_attribute>Name</_attribute>
+                <_longname>(1) Name of person living here on April 1 1970
+     (First, Middle initial, Last.)</_longname>
+            </column>
+            <column>
+                <_attribute> Relationship</_attribute>
+                <_longname>(2) Relationship of person to head of household
+     (Head of household)
+     (Wife of head)
+     (Son or daughter of head)
+     (Other relative of head - Print relationship)
+     (Roomer, boarder, lodger)
+     (Patient or inmate)
+     (Other not related to head - Print relationship)</_longname>
+            </column>
+            <column>
+                <_attribute> Sex</_attribute>
+                <_longname>(3) Sex of this person?
+     (Male)
+     (Female)</_longname>
+            </column>
+            <column>
+                <_attribute>Race</_attribute>
+                <_longname>(4) Color or Race
+     (White)
+     (Negro or Black)
+     (Indian (Amer.) - Print tribe)
+     (Japanese)
+     (Chinese)
+     (Filipino)
+     (Hawaiian)
+     (Korean)
+     (Other - Print race)</_longname>
+            </column>
+            <column>
+                <_attribute> Age</_attribute>
+                <_longname>(5) Age at last birthday</_longname>
+            </column>
+            <column>
+                <_attribute> Date of birth</_attribute>
+                <_longname>(6,7) Month and Year</_longname>
+            </column>
+            <column>
+                <_attribute>  Marital Status</_attribute>
+                <_longname>(8) Person&apos;s marital status?
+     (Now married)
+     (Widowed)
+     (Divorced)
+     (Separated)
+     (Never married)
+     (Blank for children born after March 31, 1946)</_longname>
+            </column>
+            <column>
+                <_attribute> Place of birth</_attribute>
+                <_longname>(13a) Where was this person born?
+       (This state)
+       (Or - Name of State or foreign country, U.S. Possession, etc)</_longname>
+            </column>
+            <column>
+                <_attribute> Person&apos;s origin or descent</_attribute>
+                <_longname>(13b) Is this person&apos;s origin or descent
+       (Mexican)
+       (Puerto Rican)
+       (Cuban)
+       (Central or South American)
+       (Other Spanish)
+       (No, None of these)</_longname>
+            </column>
+            <column>
+                <_attribute> Birth country of father</_attribute>
+                <_longname>(14) What country was the father born in</_longname>
+            </column>
+            <column>
+                <_attribute> Birth country of mother</_attribute>
+                <_longname>(15) What country was the mother born in
+       (United States)
+       (Or - Name of State or foreign country, U.S. Possession, etc)</_longname>
+            </column>
+            <column>
+                <_attribute> Is this person Naturalized</_attribute>
+                <_longname>(16a) For person&apos;s born in a foreign country
+        (Yes, naturalized)
+        (No, alien)
+        (Born abroad of American parents)</_longname>
+            </column>
+            <column>
+                <_attribute>  When arrived in U.S. to stay</_attribute>
+                <_longname>(16b) For person&apos;s born in a foreign country
+        (1965 to 70)
+        (1960 to 64)
+        (1955 to 59)
+        (1950 to 54)
+        (1945 to 49)
+        (1935 to 44)
+        (1925 to 34)
+        (1915 to 24)
+        (Before 1915)</_longname>
+            </column>
+            <column>
+                <_attribute> Language, other than English, spoken in the home when a child</_attribute>
+                <_longname>(17) What language, other than English, was spoken in this person&apos;s home when he was a child?
+        (Spanish)
+        (French)
+        (German)
+        (Other - (Specify))
+        (None, English only)</_longname>
+            </column>
+            <column>
+                <_attribute> Moved into this house</_attribute>
+                <_longname>(18)  When did this person move into this house or apartment
+        (1969 or 70)
+        (1968)
+        (1967)
+        (1965 to 66)
+        (1960 to 64)
+        (1950 to 59)
+        (1949 or earlier)
+        (Always lived here)</_longname>
+            </column>
+            <column>
+                <_attribute> Lived here on Apr. 1 1965</_attribute>
+                <_longname>(19a) Did he live in this house on April 1, 1965?
+        (Born April 1965 or later) Skip to question 20
+        (Yes, this house) Skip to question 20
+        (No, different house) Answer Questions 19b</_longname>
+            </column>
+            <column>
+                <_attribute> Lived somewhere else on April 1, 1965</_attribute>
+                <_longname>(19b) Give the location of his usual residence at that time.
+        (State, County, (City if inside city limits)
+        (Foreign country, U.S. possession, etc.)</_longname>
+            </column>
+            <column>
+                <_attribute> Attended regular school or college at any time since Feb. 1, 1970</_attribute>
+                <_longname>(20) Since February 1, 1970, has this person attended regular school or college at any time?
+       (No)
+       (Yes, public)
+       (Yes, parochial)
+       (Yes, other private)</_longname>
+            </column>
+            <column>
+                <_attribute> Highest grade (or year) of regular school attended</_attribute>
+                <_longname>(21) What is the highest grade (or year) of regular school he has ever attended?
+       (Never attended school)
+       (Nursery school)
+       (Kindergarten)
+       (Elementary through high school 1-12) - (Specify grade)
+       (College 1-6 or more) - (Specify year)</_longname>
+            </column>
+            <column>
+                <_attribute> Highest grade finished</_attribute>
+                <_longname>(22) Did he finish the highest grade (or year) he attended?
+       (Now attending this grade (or year)
+       (Finished this grade (or year)
+       (Did not finish this grade (or year)</_longname>
+            </column>
+            <column>
+                <_attribute> This person was born</_attribute>
+                <_longname>(23) When was this person born?
+       (Before April 1956)
+       (April 1956 or later)</_longname>
+            </column>
+            <column>
+                <_attribute> Date of first marriage</_attribute>
+                <_longname>(24a, b) If this person has ever been married - Has this person been married more than once?
+       (Once - Date of marriage)
+       (More than once - Date of first marriage</_longname>
+            </column>
+            <column>
+                <_attribute> First marriage ended due to a death</_attribute>
+                <_longname>(24c) If married more than once- Did the first marriage end because of the death of the spouse?
+       (Yes)
+       (No)</_longname>
+            </column>
+            <column>
+                <_attribute> Mother of how many children</_attribute>
+                <_longname>(25) How many babies has she ever had, not counting stillbirths?</_longname>
+            </column>
+            <column>
+                <_attribute> Ever served in the U.S. Armed Forces</_attribute>
+                <_longname>(26a) If this is a man - Has he ever served in the Army, Navy, or other Armed Forces of the U.S.?
+       (Yes) Anwser question 26b
+       (No) Skip to 27a</_longname>
+            </column>
+            <column>
+                <_attribute> Served during</_attribute>
+                <_longname>(26b) Was it during - enter all that apply
+       (Vietnam Conflict) Since Aug. 1964
+       (Korean War) June 1950 to Jan. 1955
+       (World War II) Sept. 1940 to July 1947
+       (World War I) April 1917 to Nov. 1918
+       (Any other time)</_longname>
+            </column>
+            <column>
+                <_attribute> Has completed vocational training?</_attribute>
+                <_longname>(27a) Has this person ever completed a vocational training program?
+       (Yes) Answer 27b
+       (No) Skip to 28a</_longname>
+            </column>
+            <column>
+                <_attribute> Main field of vocational training</_attribute>
+                <_longname>(27b) What was the main field of vocational training
+       (Business, office work)
+       (Nursing, other health fields)
+       (Trades and crafts) mechanic, electrician, beautician, etc.
+       (Engineering, or science technician; draftsman)
+       (Agriculture or home economics)
+       (Other field) Specify field</_longname>
+            </column>
+            <column>
+                <_attribute> Has health or physical condition that limits work</_attribute>
+                <_longname>(28a) Does this person have a health or physical condition which limits the kind or amount of work he can do at a job?
+                If 65 years old or over ship to question 29a
+       (Yes)
+       (No)</_longname>
+            </column>
+            <column>
+                <_attribute> Does health or physical condition prevent holding any job?</_attribute>
+                <_longname>(28b) Does his health or physical condition keep him from holding any job at all?
+       (Yes)
+       (No)</_longname>
+            </column>
+            <column>
+                <_attribute> How long has he been limited in working</_attribute>
+                <_longname>(28c) How long has he been limited in his ability to work?
+       (Less than 6 months)
+       (6 to 11 months)
+       (1 to 2 years)
+       (3 to 4 years)
+       (5 to 9 years)
+       (10 or more years)</_longname>
+            </column>
+            <column>
+                <_attribute> Worked last week</_attribute>
+                <_longname>(29a) Did this person work at any time last week?
+       (Yes)
+       (No) Skip to question 30</_longname>
+            </column>
+            <column>
+                <_attribute> Hours worked last week</_attribute>
+                <_longname>(29b) How many hours did he work last week? (all jobs)
+       (1 to 14)
+       (15 to 29)
+       (30 to 34)
+       (35 to 39)
+       (40 hours)
+       (41 to 48)
+       (49 to 49)
+       (60 or more hours)</_longname>
+            </column>
+            <column>
+                <_attribute> Where did he work last week?</_attribute>
+                <_longname>(29c) Where did he work the most hours last week?
+       (Address, City (if within city limits), County, State, Zip Code)</_longname>
+            </column>
+            <column>
+                <_attribute> Transportation to work last week?</_attribute>
+                <_longname>(29d) How did he get to work last week?
+       (Driver, private auto)
+       (Passenger, private auto)
+       (Bus, or streetcar)
+       (Subway or elevated)
+       (Railroad)
+       (Taxicab)
+       (Walked only)
+       (Other means) Specify</_longname>
+            </column>
+            <column>
+                <_attribute> Was this person temporarily absent last week from their job?</_attribute>
+                <_longname>(30) Does this person have a job or business from which he was temporarily absent last week?
+      (Yes, on layoff)
+      (Yes, on vacation, temporary illness, labor dispute, etc.)
+      (No)</_longname>
+            </column>
+            <column>
+                <_attribute> Looking for work in the past 4 weeks</_attribute>
+                <_longname>(31a) Has he been looking for work during the past 4 weeks?
+       (Yes)
+       (No) Skip to question 32</_longname>
+            </column>
+            <column>
+                <_attribute> Reason he could not take a job last week</_attribute>
+                <_longname>(31b) Was there any reason why he could not take a job last week?
+       (Yes, already has a job)
+       (Yes, because of this person&apos;s temporary illness)
+       (Yes, for other reasons) in school, etc.
+       (No, could not have taken a job)</_longname>
+            </column>
+            <column>
+                <_attribute> This person last worked</_attribute>
+                <_longname>(32) When did this person last work at all, even for a few days?
+      (in 1970)
+      (in 1969
+      (in 1968)
+      (1964 to 1967)
+      (1960 to 1963)
+      (1959 or earlier) Skip to question 36
+      (Never worked) Skip to question 36</_longname>
+            </column>
+            <column>
+                <_attribute> Whom did he work for</_attribute>
+                <_longname>(33a) Industry, For whom did he work for?
+      (If on active duty print AF and skip to question 36)
+      (Name of company, business, organization, or other employer)</_longname>
+            </column>
+            <column>
+                <_attribute> Type of business or industry</_attribute>
+                <_longname>(33b) What kind of business or industry was this?
+       (Example; school, supermarket, farm, TV and radio service, auto assembly plant, road construction)</_longname>
+            </column>
+            <column>
+                <_attribute> Industry is primarily</_attribute>
+                <_longname>(33c) Is manly -
+       (Manufacturing)
+       (Wholesale)
+       (Retail trade)
+       (Other - agriculture, construction, service, government, etc.)</_longname>
+            </column>
+            <column>
+                <_attribute> Occupation</_attribute>
+                <_longname>(34a) What kind of work was he doing?
+            For example; TV repairman, sewing machine operator, spray painter, civil engineer, farm operator, farm hand, junior high English teacher.</_longname>
+            </column>
+            <column>
+                <_attribute> Most important activities/duties</_attribute>
+                <_longname>(34b) What were his most important activities or duties?
+            For example; Types, keeps account books, files, sells cars, operates printing press, cleans buildings, finishes concrete.</_longname>
+            </column>
+            <column>
+                <_attribute> Job title</_attribute>
+                <_longname>(34c) What was his job title?</_longname>
+            </column>
+            <column>
+                <_attribute> Employed by</_attribute>
+                <_longname>(35) Was this person
+       (Privately company)
+       (Federal government)
+       (State  government)
+       (Local  government)
+       (Self-employed in own unincorporated business)
+       (Self-employed in own incorporated business)
+       (Working without pay in family business or farm)</_longname>
+            </column>
+            <column>
+                <_attribute> April 1965 this person lived in </_attribute>
+                <_longname>(36) In April 1965, what State did this person live in?
+      (This State)
+      (Name of State or foreign country; or Puerto Rico, etc.)</_longname>
+            </column>
+            <column>
+                <_attribute> April 1965 this person was</_attribute>
+                <_longname>(37) In April 1965, this person was
+      (working at a job or business)
+      (in the Armed Forces)
+      (attending college)</_longname>
+            </column>
+            <column>
+                <_attribute> Kind of business or industry in April 1965</_attribute>
+                <_longname>(38a) If working at a job or business - What kind of business or industry was this?.</_longname>
+            </column>
+            <column>
+                <_attribute> Kind of work was he doing in April 1965</_attribute>
+                <_longname>(38b) If working at a job or business - What kind of work was he doing (occupation)?</_longname>
+            </column>
+            <column>
+                <_attribute> This person was</_attribute>
+                <_longname>(38c) In April 1965 he was
+       (An employee of a private company or government agency)
+       (Self-employed or unpaid family worker)</_longname>
+            </column>
+            <column>
+                <_attribute> Did this person work in 1969</_attribute>
+                <_longname>(39a) Last year (1969), did this person work at all, even for a few days?
+       (Yes)
+       (No) Skip to 41</_longname>
+            </column>
+            <column>
+                <_attribute> Weeks worked in 1969</_attribute>
+                <_longname>(39b) How many weeks did he work in 1969, either full-time or part-time?
+              Count paid vacation, paid sick leave, and military service.
+       (13 weeks or less)
+       (14 to 26 weeks)
+       (27 to 39 weeks)
+       (40 to 47 weeks)
+       (48 to 49 weeks)
+       (50 to 52 weeks)</_longname>
+            </column>
+            <column>
+                <_attribute> Income in 1969 from wages, salary, commissions, or tips</_attribute>
+                <_longname>(40a) How much did this person earn in 1969 in wages, salary, commissions, or tips from all jobs?</_longname>
+            </column>
+            <column>
+                <_attribute> Income in 1969 from own business, professional practice or partnership</_attribute>
+                <_longname>(40b) How much did this person earn in 1969 in profits or fees from working in his own business, professional practice or partnership?</_longname>
+            </column>
+            <column>
+                <_attribute> Income in 1969 from his own farm</_attribute>
+                <_longname>(40c) How much did he earn in 1969 from his own farm?
+             (Net after operating expenses. Include earnings as a tenant farmer or sharecropper. If farm lost money, write "Loss" above amount.)</_longname>
+            </column>
+            <column>
+                <_attribute> Income in 1969 from Social Security or Railroad Retirement?</_attribute>
+                <_longname>(41a) How much did this person receive in 1969 from Social Security or Railroad Retirement?</_longname>
+            </column>
+            <column>
+                <_attribute> Income in 1969 from public assistance or public welfare payments?</_attribute>
+                <_longname>(41b) How much did he receive in 1969 from public assistance or welfare payments?</_longname>
+            </column>
+            <column>
+                <_attribute> Income in 1969 from other sources?</_attribute>
+                <_longname>(41c) How much did he receive in 1969 from all other sources?</_longname>
+            </column>
+        </section>
+    </form>
+<!--
+ 2020 U.S. Decennial Census
+-->
+    <form id='US2020' type='Census' title='2020 Census' date='2020-04-01'>
+        <heading>
+            <_attribute>Census completed by</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Date completed</_attribute>
+        </heading>
+        <heading>
+            <_attribute>No. of people in household</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Other people not included</_attribute>
+        </heading>
+        <heading>
+            <_attribute>This home is</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Telephone number</_attribute>
+        </heading>     
+        <section role='Primary' type='multi' title='Other Household Members'>
+            <column>
+                <_attribute>Name</_attribute>
+                <_longname>(1) Name of members of household</_longname>
+            </column>
+            <column>
+                <_attribute>Does this person usually live or stay elsewhere?</_attribute>
+                <_longname>(2) (No) 
+    (Yes, for college) 
+    (Yes, for a military assignment) 
+    (Yes, for a job or business) 
+    (Yes, in a nursing home) 
+    (Yes, with a parent or other relative) 
+    (Yes, at a seasonal or second residence) 
+    (Yes, in a jail or prison) 
+    (Yes, for another reason)</_longname>
+            </column>
+            <column>
+                <_attribute>Relationship to head of household?</_attribute>
+                <_longname>(3) How is this person related to Person 1? 
+    (Opposite-sex husband/wife/spouse) 
+    (Opposite-sex unmarried partner)
+    (Same-sex husband/wife/spouse)
+    (Same-sex unmarried partner)
+    (Biological son or daughter)
+    (Adopted son or daughter)
+    (Stepson or stepdaughter)
+    (Brother or sister)
+    (Father or mother)
+    (Grandchild)
+    (Parent-in-law)
+    (Son-in-law or daughter-in-law) 
+    (Other relative) 
+    (Roommate or housemate) 
+    (Foster child) 
+    (Other nonrelative)</_longname>
+            </column>
+            <column>
+                <_attribute>Gender</_attribute>
+                <_longname>(4) What is this person’s sex?
+                (Male), (Female)</_longname>
+            </column>
+            <column>
+                <_attribute>Age and Birth date</_attribute>
+                <_longname>(5) Age and Date of birth (MM/DD/YYYY)</_longname>
+            </column>
+            <column>
+                <_attribute>Person of Hispanic, Latino, or Spanish origin</_attribute>
+                <_longname>(6) (No, not of Hispanic, Latino, or Spanish origin)  
+     (Yes, Mexican, Mexican Am., Chicano)  
+     (Yes, Puerto Rican)
+     (Yes, Cuban)
+     (Yes, another Hispanic, Latino, or Spanish origin – Print, for example,
+      Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc.</_longname>
+            </column>
+            <column>
+                <_attribute>Race</_attribute>
+                <_longname>(7) (White – Print, for example, German, Irish, English, Italian, Lebanese,
+         Egyptian, etc.) 
+     (Black or African Am. – Print, for example, African American, Jamaican,
+         Haitian, Nigerian, Ethiopian, Somali, etc.) 
+     (American Indian or Alaska Native – Print name of enrolled or principal tribe(s),
+         for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of
+         Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)
+     (Chinese), (Vietnamese), (Native Hawaiian), (Filipino), (Korean), (Samoan),
+     (Asian Indian), (Japanese), (Chamorro), 
+     (Other Asian – Print, for example, Pakistani, Cambodian, Hmong, etc.)
+     (Other Pacific Islander – Print, for example, Tongan, Fijian, Marshallese, etc.
+     (Some other race – Print race or origin.)</_longname>
+            </column>
+        </section>  
+    </form>
+</forms>
