@@ -34,7 +34,8 @@ D.S.S. Form 1
             <column>
                 <_attribute>Place of Residence</_attribute>
                 <_longname>(2) Address or Place of Residence
- No. and street or R.F.D. No., Town, County, State</_longname>
+ No. and street or R.F.D. No.,
+ Town, County, State</_longname>
             </column>
             <column>
                 <_attribute>Mailing Address</_attribute>
